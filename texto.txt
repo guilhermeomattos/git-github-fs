@@ -1,1 +1,14 @@
-um texto
+No meu terminal eu digitei,
+git init e tudo começou,
+Um commit guardando a memória,
+Da história que o código deixou.
+
+Se der conflito, eu vou resolver,
+No merge sempre encontro a lição,
+Com git push eu faço acontecer,
+Versionando até a emoção.
+
+Git, git, salva minha versão,
+Controla meu código, minha paixão,
+No repositório fica a canção,
+Git push direto pro coração.
