@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História do GitHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: #4CAF50;
+            transform: translateX(-50%);
+        }
+        .event {
+            position: relative;
+            width: 50%;
+            padding: 20px 40px;
+            box-sizing: border-box;
+        }
+        .event.left {
+            left: 0;
+            text-align: right;
+        }
+        .event.right {
+            left: 50%;
+            text-align: left;
+        }
+        .event .date {
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        .event .desc {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 16px;
+            margin-top: 8px;
+            display: inline-block;
+            max-width: 320px;
+        }
+        @media (max-width: 700px) {
+            .timeline::before { left: 20px; }
+            .event { width: 100%; left: 0; text-align: left; padding-left: 40px; }
+            .event.right { left: 0; }
+        }
+        .github-logo {
+            display: block;
+            margin: 30px auto 10px auto;
+            width: 100px;
+            border-radius: 50%;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin: 30px 0 0 0;
+            color: #4CAF50;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <img src="github-logo.png" alt="Logo GitHub" class="github-logo">
+        <h1>História do GitHub</h1>
+        <p>Conheça a trajetória da maior plataforma de colaboração de código do mundo.</p>
+    </header>
+
+    <main class="main">
+        <section class="timeline">
+            <div class="event left">
+                <span class="date">2007</span>
+                <div class="desc">
+                    <strong>Fundação do GitHub</strong><br>
+                    Tom Preston-Werner, Chris Wanstrath, PJ Hyett e Scott Chacon fundam o GitHub em San Francisco, com o objetivo de facilitar o compartilhamento e colaboração de projetos usando Git.
+                </div>
+            </div>
+            <div class="event right">
+                <span class="date">2008</span>
+                <div class="desc">
+                    <strong>Lançamento Oficial</strong><br>
+                    O GitHub é lançado publicamente, rapidamente atraindo desenvolvedores interessados em hospedagem de repositórios Git e colaboração aberta.
+                </div>
+            </div>
+            <div class="event left">
+                <span class="date">2010</span>
+                <div class="desc">
+                    <strong>Crescimento Exponencial</strong><br>
+                    GitHub ultrapassa 1 milhão de repositórios hospedados, tornando-se referência mundial em projetos open source.
+                </div>
+            </div>
+            <div class="event right">
+                <span class="date">2012</span>
+                <div class="desc">
+                    <strong>Expansão Global</strong><br>
+                    GitHub começa a ser utilizado por grandes empresas e organizações, consolidando sua presença no mercado corporativo.
+                </div>
+            </div>
+            <div class="event left">
+                <span class="date">2016</span>
+                <div class="desc">
+                    <strong>Novos Recursos</strong><br>
+                    Lançamento de funcionalidades como GitHub Actions, GitHub Pages e integração com ferramentas de CI/CD, ampliando as possibilidades para desenvolvedores.
+                </div>
+            </div>
+            <div class="event right">
+                <span class="date">2018</span>
+                <div class="desc">
+                    <strong>Aquisição pela Microsoft</strong><br>
+                    GitHub é adquirido pela Microsoft por US$ 7,5 bilhões, garantindo investimentos e expansão da plataforma.
+                </div>
+            </div>
+            <div class="event left">
+                <span class="date">2020</span>
+                <div class="desc">
+                    <strong>GitHub Copilot</strong><br>
+                    Lançamento do GitHub Copilot, uma ferramenta de inteligência artificial para auxiliar desenvolvedores na escrita de código.
+                </div>
+            </div>
+            <div class="event right">
+                <span class="date">2023</span>
+                <div class="desc">
+                    <strong>Mais de 100 milhões de usuários</strong><br>
+                    GitHub alcança a marca de 100 milhões de desenvolvedores cadastrados, consolidando-se como a maior comunidade de código do mundo.
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Impacto do GitHub</h2>
+            <p>
+                O GitHub revolucionou a forma como desenvolvedores colaboram, aprendem e compartilham conhecimento. Projetos de código aberto, empresas e comunidades utilizam a plataforma para inovar e construir soluções que impactam o mundo inteiro.
+            </p>
+            <p>
+                Além de hospedar repositórios, o GitHub oferece ferramentas para gerenciamento de projetos, integração contínua, documentação e segurança, tornando-se essencial para o desenvolvimento moderno.
+            </p>
+        </section>
+
+        <a href="index.html" class="back-link">← Voltar para a página inicial</a>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 História do GitHub. Todos os direitos
