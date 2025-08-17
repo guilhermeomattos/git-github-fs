@@ -58,3 +58,19 @@ body {
     bottom: 0;
     width: 100%;
 }
+
+.images-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.circular-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4CAF50;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
